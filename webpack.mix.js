@@ -24,5 +24,5 @@ mix.js('resources/js/app.js', 'public/js')
 if (mix.inProduction()) {
     mix.version()
 }
-mix.browserSync('laravel8-jet.test');
+mix.browserSync('laravel8-jet-master.test');
 

@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
     <!-- Styles -->
+    @livewireStyles
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
     <!-- Scripts -->
+    @livewireScripts
     <script src="{{ mix('js/app.js') }}"></script>
     <style>
         a {
@@ -59,5 +61,8 @@
         {{ $slot }}
     </main>
 </div>
+
+@stack('modals')
+
 </body>
 </html>
